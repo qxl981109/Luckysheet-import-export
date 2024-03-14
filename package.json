@@ -1,0 +1,32 @@
+{
+  "name": "cesiumapp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@hufe921/canvas-editor": "^0.9.68",
+    "axios": "^1.6.7",
+    "element-plus": "^2.6.1",
+    "exceljs": "^4.3.0",
+    "file-saver": "^2.0.5",
+    "luckyexcel": "^1.0.1",
+    "luckysheet": "^2.1.13",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.19",
+    "vue-i18n": "^9.10.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "cesium": "^1.114.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4",
+    "vite-plugin-cesium": "^1.2.22",
+    "vue-tsc": "^1.8.27"
+  }
+}
